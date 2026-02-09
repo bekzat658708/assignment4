@@ -1,0 +1,54 @@
+# IntelliJ IDEA файлы
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven / Gradle құрылымы
+target/
+out/
+*.class
+
+# Maven wrapper (әдетте қосу керек емес, бірақ кейде қажет)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Журналдар, уақытша файлдар
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Операциялық жүйе файлдары
+.DS_Store          # MacOS
+Thumbs.db          # Windows
+ehthumbs.db
+desktop.ini
+
+# Құпия ақпарат (қауіпсіздік үшін)
+*.env
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+application.properties.local
+application.yml.local
+
+# Басқа жиі кездесетін қоқыс қалталар
+build/
+dist/
+bin/
+.classpath
+.project
+.settings/
+bin/
+obj/
+
+# Егер қатаң түрде тек src-ті қосқың келсе (қаласаң ғана қос)
+# *                   # барлығын елемеу
+# !src/               # src қалтасын қосу
+# !pom.xml            # pom.xml-ді қосу
+# !README.md          # README-ді қосу
+# !.gitignore         # .gitignore-ды қосу
